@@ -1,7 +1,9 @@
-name: dlib
+name: environment.yml
 channels:
   - conda-forge
 dependencies:
+  - cmake==3.22.4
+  - dlib==19.24.0
   - keras==2.10.0
   - numpy==1.23.3
   - pip=22.1.2
