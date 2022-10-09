@@ -1,5 +1,6 @@
-name: environment.yml
-
+name: environment.ymal
+channels:
+  - conda-forge
 dependencies:
   - face_recognition==1.3.0
   - keras==2.10.0
