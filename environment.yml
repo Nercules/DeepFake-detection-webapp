@@ -8,5 +8,5 @@ dependencies:
   - pip=22.1.2
   - streamlit==1.13.0
   - pip:
-      - opencv_python==4.6.0.66
+      - opencv_python_headless==4.6.0.66
       - scikit_learn==1.1.2
