@@ -2,7 +2,7 @@
 # DeepFake detection webapp :busts_in_silhouette:
 A Streamlit app that checks an uploaded video for deepfakes.
 
-## How do I run locally?
+## How to run locally?
 ### Clone repo
     git clone https://github.com/Nercules/DeepFake-detection-webapp.git
 ### Create and activate a venv with the needed dependencies
