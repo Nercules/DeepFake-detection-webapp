@@ -1,7 +1,7 @@
-import face_recognition
 import cv2
 from os import walk, remove, listdir, path
 import streamlit as st
+import face_recognition
 import numpy as np
 from keras import utils
 from keras.models import load_model

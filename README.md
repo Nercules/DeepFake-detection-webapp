@@ -1,4 +1,4 @@
-# *Still in progreess* :construction_worker:
+# *Still in progress* :construction_worker:
 # DeepFake detection webapp :busts_in_silhouette:
 A Streamlit app that checks an uploaded video for deepfakes.
 ![detection example](imagery/boxed_frames/README_Example.png)

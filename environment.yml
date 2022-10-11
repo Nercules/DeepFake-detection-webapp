@@ -1,6 +1,7 @@
 name: environment.ymal
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - keras==2.10.0
   - numpy==1.23.3
