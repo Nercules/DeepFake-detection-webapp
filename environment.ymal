@@ -4,4 +4,4 @@ channels:
 dependencies:
   - dlib
   - pip:
-    - -r file:req/requirements.txt
+    - -r file:./req/requirements.txt
