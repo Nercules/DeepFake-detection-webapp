@@ -4,9 +4,4 @@ channels:
 dependencies:
   - dlib
   - pip:
-    - keras==2.10.0
-    - numpy==1.23.3
-    - scikit_learn==1.1.2
-    - streamlit==1.13.0
-    - face_recognition==1.3.0
-    - opencv-python-headless==4.6.0.66
+    - -r requirements.txt
