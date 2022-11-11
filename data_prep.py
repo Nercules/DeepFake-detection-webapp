@@ -8,8 +8,12 @@ from keras.models import load_model
 from sklearn.metrics import f1_score
 
 INPUT_SIZE = (299, 299)
-model = load_model('./deepfake_model.h5', custom_objects={"f1_score": f1_score})
 
+@st.cache
+def load_model():
+    return load_model('./deepfake_model.h5', custom_objects={"f1_score": f1_score})
+
+model = load_model()
 
 # pulls images from the video
 def generate_images_from_videos(video, extraction_path):
